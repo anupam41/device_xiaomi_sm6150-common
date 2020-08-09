@@ -288,6 +288,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
+# Platform
+MSMSTEPPE := sm6150
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
